@@ -83,7 +83,7 @@ Auth cookies use `HttpOnly`, `SameSite=Lax`, and `Secure` in production. Helmet,
 3. Build with `npm run build`; run `npm run seed` once against the intended database; start the API with `npm --workspace server start`.
 4. Set `CLIENT_ORIGIN` to the deployed frontend origin. Configure the frontend API base and verified Swiggy URL only if provided.
 5. Deploy the Vite `client/dist` output. Configure SPA fallback to `index.html` and API CORS to the exact production origin.
-6. Payment, fees/taxes, full admin product editing, and external order synchronization need business/provider credentials and implementation before accepting live orders.
+6. Payment, fees/taxes, full admin product editing, and external order synchronization need business/provider credentials and implementation before accepting live orders
 
 ## Tests
 
