@@ -1,0 +1,15 @@
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
+import { Clock3, Instagram, MapPin, MessageCircle, Phone, ShoppingBag } from 'lucide-react';
+import { useCart } from './store/cart';
+import { BUSINESS_ADDRESS, BUSINESS_HOURS, BUSINESS_PHONE, BUSINESS_PHONE_LINK, BrandMark, Header, INSTAGRAM_URL, whatsappUrl } from './components/Header';
+import { Home } from './pages/Home';
+import { Menu } from './pages/Menu';
+import { Admin } from './pages/Admin';
+import { Corporate } from './pages/Corporate';
+import { Subscriptions } from './pages/Subscriptions';
+import { Account } from './pages/Account';
+import { ProductDetail } from './pages/ProductDetail';
+import { Cart } from './pages/Cart';
+import { CartAddedToast } from './components/CartAddedToast';
+function Footer() { return <footer className="footer"><div><Link to="/" className="brand footer-brand"><BrandMark/><span>just salad<small>FRESH, EVERY DAY</small></span></Link><p>Chhatrapati Sambhajinagar’s 1st healthy food brand · Pure vegetarian</p><div className="footer-contact"><a href={`tel:${BUSINESS_PHONE_LINK}`}><Phone size={14}/> {BUSINESS_PHONE}</a><span><Clock3 size={14}/> {BUSINESS_HOURS}</span><a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(BUSINESS_ADDRESS)}`} target="_blank" rel="noopener noreferrer"><MapPin size={14}/> {BUSINESS_ADDRESS}</a></div></div><div className="footer-links"><Link to="/menu">Explore menu</Link><Link to="/subscriptions">Subscriptions</Link><Link to="/corporate">Corporate</Link><a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer"><Instagram size={15}/> Follow us on Instagram</a><span>© 2026 Just Salad</span></div></footer>; }
+export default function App() { const wa = whatsappUrl(); const pathname = useLocation().pathname; const orderingArea = pathname.startsWith('/order-online') || pathname === '/cart'; const cartCount = useCart((state) => state.lines.reduce((sum, line) => sum + line.quantity, 0)); return <><Header/><Routes><Route path="/" element={<Home/>}/><Route path="/menu" element={<Menu/>}/><Route path="/order-online" element={<Menu/>}/><Route path="/menu/:id" element={<ProductDetail/>}/><Route path="/cart" element={<Cart/>}/><Route path="/subscriptions" element={<Subscriptions/>}/><Route path="/corporate" element={<Corporate/>}/><Route path="/account" element={<Account/>}/><Route path="/admin" element={<Admin/>}/><Route path="*" element={<main className="empty-results"><h1>Page not found</h1><Link to="/" className="button button-dark">Go home</Link></main>}/></Routes><CartAddedToast/><Link className={cartCount ? 'cart-float has-items' : 'cart-float'} to="/cart" aria-label={`Open cart, ${cartCount} ${cartCount === 1 ? 'item' : 'items'}`}><ShoppingBag size={21}/><span className="cart-count-badge">{cartCount}</span>{cartCount > 0 && <span className="cart-float-label">Review &amp; WhatsApp order</span>}</Link>{wa && orderingArea && <a className="whatsapp-float" href={wa} target="_blank" rel="noopener noreferrer" aria-label="Chat with Just Salad on WhatsApp"><MessageCircle/></a>}<Footer/></>; }

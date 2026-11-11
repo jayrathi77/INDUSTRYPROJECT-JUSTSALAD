@@ -1,0 +1,403 @@
+[
+  {
+    "id": "salad-superfood-mix-sprouts",
+    "category": "Salads",
+    "name": "SUPERFOOD MIX SPROUTS SALAD",
+    "description": "A power-packed mix of sprouts, mixed greens, cherry tomatoes, cucumber, carrots, pumpkin seeds & our house dressing.",
+    "price": 180,
+    "nutrition": {
+      "caloriesKcal": 210,
+      "proteinG": 18,
+      "carbsG": 20,
+      "fatG": 8,
+      "fiberG": 7
+    }
+  },
+  {
+    "id": "salad-panner-tofu-veggies",
+    "category": "Salads",
+    "name": "PANNER / TOFU VEGGIES SALAD",
+    "description": "Grilled paneer or tofu with crisp lettuce, bell peppers, cucumber, cherry tomatoes, corn & light dressing.",
+    "price": 200,
+    "nutrition": {
+      "caloriesKcal": 230,
+      "proteinG": 22,
+      "carbsG": 16,
+      "fatG": 10,
+      "fiberG": 6
+    }
+  },
+  {
+    "id": "salad-quinoa",
+    "category": "Salads",
+    "name": "QUINOA SALAD",
+    "description": "Quinoa with mixed greens, roasted veggies, chickpeas, cucumber, avocado & lemon dressing.",
+    "price": 220,
+    "nutrition": {
+      "caloriesKcal": 250,
+      "proteinG": 20,
+      "carbsG": 24,
+      "fatG": 10,
+      "fiberG": 8
+    }
+  },
+  {
+    "id": "salad-mexican-red-bean",
+    "category": "Salads",
+    "name": "MEXICAN RED BEAN SALAD",
+    "description": "Red beans, corn, bell peppers, lettuce, tomatoes, onions & our house Mexican dressing.",
+    "price": 180,
+    "nutrition": {
+      "caloriesKcal": 220,
+      "proteinG": 16,
+      "carbsG": 20,
+      "fatG": 8,
+      "fiberG": 7
+    }
+  },
+  {
+    "id": "salad-3-bean",
+    "category": "Salads",
+    "name": "3 BEAN SALAD",
+    "description": "A wholesome mix of kidney beans, chickpeas & black beans with mixed greens, veggies & tangy dressing.",
+    "price": 200,
+    "nutrition": {
+      "caloriesKcal": 240,
+      "proteinG": 18,
+      "carbsG": 22,
+      "fatG": 9,
+      "fiberG": 8
+    }
+  },
+  {
+    "id": "salad-fruit-bowl",
+    "category": "Salads",
+    "name": "FRUIT BOWL",
+    "description": "Seasonal fresh fruits with chia seeds, nuts & a hint of honey.",
+    "price": 200,
+    "nutrition": {
+      "caloriesKcal": 180,
+      "proteinG": 6,
+      "carbsG": 28,
+      "fatG": 6,
+      "fiberG": 5
+    }
+  },
+  {
+    "id": "sandwich-avocado",
+    "category": "Sandwiches",
+    "name": "AVOCADO SANDWICH",
+    "description": "Fresh avocado, lettuce, tomatoes, cucumber, onions & herbs with a light spread.",
+    "price": null,
+    "ambiguity": "The sandwich section lists ?MULTIGRAIN BREAD ?250 | SOURDOUGH BREAD ?350? but does not clearly state how those prices apply to this sandwich."
+  },
+  {
+    "id": "sandwich-paneer-tikka",
+    "category": "Sandwiches",
+    "name": "PANEER TIKKA SANDWICH",
+    "description": "Grilled paneer, bell peppers, onions, lettuce & mint chutney on multigrain bread.",
+    "price": null,
+    "ambiguity": "The sandwich section lists ?MULTIGRAIN BREAD ?250 | SOURDOUGH BREAD ?350? but does not clearly state how those prices apply to this sandwich."
+  },
+  {
+    "id": "sandwich-protein-jumbo",
+    "category": "Sandwiches",
+    "name": "PROTEIN JUMBO SANDWICH",
+    "description": "Grilled chicken, boiled eggs, lettuce, tomatoes, cucumber, onions & house dressing.",
+    "price": null,
+    "ambiguity": "The sandwich section lists ?MULTIGRAIN BREAD ?250 | SOURDOUGH BREAD ?350? but does not clearly state how those prices apply to this sandwich."
+  },
+  {
+    "id": "sandwich-aloo",
+    "category": "Sandwiches",
+    "name": "ALOO SANDWICH",
+    "description": "Spiced mashed potatoes, lettuce, tomatoes, onions & tangy chutney.",
+    "price": null,
+    "ambiguity": "The sandwich section lists ?MULTIGRAIN BREAD ?250 | SOURDOUGH BREAD ?350? but does not clearly state how those prices apply to this sandwich."
+  },
+  {
+    "id": "sandwich-guacamole-sourdough",
+    "category": "Sandwiches",
+    "name": "GUACAMOLE WITH SOURDOUGH",
+    "description": "Fresh guacamole, cherry tomatoes, cucumbers, lettuce & microgreens on sourdough bread.",
+    "price": 399
+  },
+  {
+    "id": "wrap-tandoori-paneer",
+    "category": "Wraps",
+    "name": "TANDOORI PANEER WRAP",
+    "description": "Tandoori paneer, lettuce, onions, bell peppers & mint chutney.",
+    "price": 180,
+    "options": [
+      {
+        "name": "Wrap",
+        "choices": [
+          "Whole wheat wraps"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wrap-thecha-paneer",
+    "category": "Wraps",
+    "name": "THECHA PANEER WRAP",
+    "description": "Paneer, thecha, lettuce, tomatoes, onions & house dressing.",
+    "price": 200,
+    "options": [
+      {
+        "name": "Wrap",
+        "choices": [
+          "Whole wheat wraps"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wrap-aloo-paneer",
+    "category": "Wraps",
+    "name": "ALOO PANEER WRAP",
+    "description": "Spiced aloo, paneer, lettuce, tomatoes, onions & chutney.",
+    "price": 180,
+    "options": [
+      {
+        "name": "Wrap",
+        "choices": [
+          "Whole wheat wraps"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wrap-vegetable",
+    "category": "Wraps",
+    "name": "VEGETABLE WRAP",
+    "description": "Seasonal vegetables, lettuce, tomatoes, onions & house dressing.",
+    "price": 180,
+    "options": [
+      {
+        "name": "Wrap",
+        "choices": [
+          "Whole wheat wraps"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "oat-chia-belgium-chocolate-chia",
+    "category": "Oatmeal & Chia Pudding",
+    "name": "BELGIUM CHOCOLATE CHIA PUDDING",
+    "description": "Creamy chia pudding with rich Belgian chocolate, topped with cacao nibs & a hint of vanilla.",
+    "price": 200
+  },
+  {
+    "id": "oat-chia-fruit-nut-chia",
+    "category": "Oatmeal & Chia Pudding",
+    "name": "FRUIT & NUT CHIA PUDDING (SEASONAL FRUITS)",
+    "description": "Chia pudding layered with fresh seasonal fruits, mixed nuts and a touch of honey.",
+    "price": 200
+  },
+  {
+    "id": "oat-chia-belgium-banana-oatmeal",
+    "category": "Oatmeal & Chia Pudding",
+    "name": "BELGIUM CHOCOLATE BANANA OATMEAL",
+    "description": "Warm oatmeal with rich Belgian chocolate, fresh banana and a sprinkle of nuts.",
+    "price": 200
+  },
+  {
+    "id": "oat-chia-fruit-nut-oatmeal",
+    "category": "Oatmeal & Chia Pudding",
+    "name": "FRUIT & NUT OATMEAL (SEASONAL FRUITS)",
+    "description": "Wholesome oatmeal topped with seasonal fruits, mixed nuts and a drizzle of honey.",
+    "price": 250
+  },
+  {
+    "id": "oat-chia-masala-oats",
+    "category": "Oatmeal & Chia Pudding",
+    "name": "MASALA OATS (MEDIUM SPICY)",
+    "description": "Hearty oats cooked with aromatic spices, vegetables and a hint of heat.",
+    "price": 200
+  },
+  {
+    "id": "bowl-tandoori-paneer-rice",
+    "category": "Meal Bowls — Gravy",
+    "name": "TANDOORI PANEER RICE BOWL",
+    "description": "Grilled tandoori paneer, steamed rice, fresh salad and house gravy.",
+    "price": 220
+  },
+  {
+    "id": "bowl-palak-paneer-rice",
+    "category": "Meal Bowls — Gravy",
+    "name": "PALAK PANEER RICE BOWL",
+    "description": "Creamy palak paneer, steamed rice, fresh salad and house gravy.",
+    "price": 220
+  },
+  {
+    "id": "bowl-rajma-chawal",
+    "category": "Meal Bowls — Gravy",
+    "name": "RAJMA CHAWAL",
+    "description": "Slow-cooked rajma, steamed rice, fresh salad and house gravy.",
+    "price": 200
+  },
+  {
+    "id": "bowl-herbed-rice-creamy-gravy",
+    "category": "Meal Bowls — Gravy",
+    "name": "HERBED RICE WITH CREAMY GRAVY",
+    "description": "Herbed rice, choice of creamy paneer or mixed vegetable gravy, fresh salad and herbs.",
+    "price": 299,
+    "options": [
+      {
+        "name": "Gravy",
+        "choices": [
+          "creamy paneer",
+          "mixed vegetable gravy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bowl-mexican-burrito",
+    "category": "Meal Bowls — Non Gravy",
+    "name": "MEXICAN BURRITO BOWL",
+    "description": "Jasmine rice, black beans, corn, bell peppers, lettuce, tomatoes, onions, avocado, sour cream & house dressing.",
+    "price": 299
+  },
+  {
+    "id": "bowl-greek-falafel",
+    "category": "Meal Bowls — Non Gravy",
+    "name": "GREEK FALAFEL BOWL",
+    "description": "Quinoa, falafel, cucumbers, cherry tomatoes, olives, red onions, feta, mixed greens & tahini dressing.",
+    "price": 399
+  },
+  {
+    "id": "bowl-classic-hummus",
+    "category": "Meal Bowls — Non Gravy",
+    "name": "CLASSIC HUMMUS BOWL",
+    "description": "Quinoa, hummus, roasted vegetables, chickpeas, cucumbers, cherry tomatoes, olives & lemon dressing.",
+    "price": 399
+  },
+  {
+    "id": "bowl-paneer-tikka-veggies",
+    "category": "Meal Bowls — Non Gravy",
+    "name": "PANNER TIKKA WITH VEGGIES",
+    "description": "Grilled paneer tikka, quinoa or brown rice, mixed veggies, lettuce, onions & house dressing.",
+    "price": 299,
+    "options": [
+      {
+        "name": "Grain",
+        "choices": [
+          "quinoa",
+          "brown rice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bowl-soya-tikki-veggies",
+    "category": "Meal Bowls — Non Gravy",
+    "name": "SOYA TIKKI WITH VEGGIES",
+    "description": "Soya tikki, quinoa or brown rice, steamed veggies, lettuce, tomatoes, onions & mint dressing.",
+    "price": 289,
+    "options": [
+      {
+        "name": "Grain",
+        "choices": [
+          "quinoa",
+          "brown rice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bowl-thecha-paneer-veggies",
+    "category": "Meal Bowls — Non Gravy",
+    "name": "THECHA PANEER WITH VEGGIES",
+    "description": "Paneer tossed in thecha, quinoa or brown rice, mixed veggies, lettuce, tomatoes, onions & lemon dressing.",
+    "price": 299,
+    "options": [
+      {
+        "name": "Grain",
+        "choices": [
+          "quinoa",
+          "brown rice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bowl-soya-pulao",
+    "category": "Meal Bowls — Non Gravy",
+    "name": "SOYA PULAO",
+    "description": "Fragrant soya chunks pulao with mixed vegetables, herbs and a side of raita.",
+    "price": 280
+  },
+  {
+    "id": "drink-herbal-tea",
+    "category": "Drinks & Beverages (Sugar Free)",
+    "name": "HERBAL TEA (HOT)",
+    "description": "A calming blend of natural herbs, perfect for a healthy start.",
+    "price": 50
+  },
+  {
+    "id": "drink-protein-berry-smoothie",
+    "category": "Drinks & Beverages (Sugar Free)",
+    "name": "PROTEIN BERRY SMOOTHIE",
+    "description": "A refreshing blend of mixed berries, protein and wholesome ingredients.",
+    "price": 199
+  },
+  {
+    "id": "drink-banana-milkshake",
+    "category": "Drinks & Beverages (Sugar Free)",
+    "name": "BANANA MILKSHAKE",
+    "description": "Creamy, naturally sweet and full of goodness.",
+    "price": 120
+  },
+  {
+    "id": "drink-apple-milkshake",
+    "category": "Drinks & Beverages (Sugar Free)",
+    "name": "APPLE MILKSHAKE",
+    "description": "Fresh, smooth and naturally refreshing.",
+    "price": 130
+  },
+  {
+    "id": "drink-abc-detox",
+    "category": "Drinks & Beverages (Sugar Free)",
+    "name": "ABC DETOX DRINK",
+    "description": "Apple, Beetroot & Carrot – a powerful blend for better digestion and glowing skin.",
+    "price": 79
+  },
+  {
+    "id": "drink-amla-detox",
+    "category": "Drinks & Beverages (Sugar Free)",
+    "name": "AMLA DETOX DRINK",
+    "description": "Rich in vitamin C, helps boost immunity and rejuvenate your body.",
+    "price": 79
+  },
+  {
+    "id": "drink-chia-fennel-detox",
+    "category": "Drinks & Beverages (Sugar Free)",
+    "name": "CHIA FENNEL DETOX DRINK",
+    "description": "A refreshing mix that aids digestion and keeps you light.",
+    "price": 79
+  },
+  {
+    "id": "drink-satvik-mint-detox",
+    "category": "Drinks & Beverages (Sugar Free)",
+    "name": "SATVIK MINT DETOX DRINK",
+    "description": "Cool, fresh and full of natural goodness.",
+    "price": 79
+  },
+  {
+    "id": "drink-pomegranate-juice",
+    "category": "Drinks & Beverages (Sugar Free)",
+    "name": "POMEGRANATE JUICE",
+    "description": "Rich in antioxidants, great for heart health and skin.",
+    "price": 120
+  },
+  {
+    "id": "drink-watermelon-juice",
+    "category": "Drinks & Beverages (Sugar Free)",
+    "name": "WATERMELON JUICE",
+    "description": "Hydrating, refreshing and packed with nutrients.",
+    "price": 120
+  }
+]
